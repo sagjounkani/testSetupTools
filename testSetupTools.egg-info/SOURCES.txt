@@ -1,0 +1,8 @@
+setup.py
+testSetupTools.egg-info/PKG-INFO
+testSetupTools.egg-info/SOURCES.txt
+testSetupTools.egg-info/dependency_links.txt
+testSetupTools.egg-info/entry_points.txt
+testSetupTools.egg-info/requires.txt
+testSetupTools.egg-info/top_level.txt
+testTools/main.py

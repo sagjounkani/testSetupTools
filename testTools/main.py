@@ -20,7 +20,9 @@ class Distance:
     def getDistance(self):
         with open(self.ipFile) as f:
             lines = f.readlines()
-            self.distance = levenshtein_distance(lines[0], lines[1])
+            print(lines[0])
+            print(lines[1])
+            self.distance = levenshtein_distance(lines[0].strip(), lines[1].strip())
 
         fout = open(f'{self.opFile}', 'w')
         fout.write(f"{str(self.distance)}")
